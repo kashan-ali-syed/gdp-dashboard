@@ -6,7 +6,7 @@ from pathlib import Path
 # Set the title and favicon that appear in the Browser's tab bar.
 st.set_page_config(
     page_title='GDP dashboard',
-    page_icon=':earth_americas:', # This is an emoji shortcode. Could be a URL too.
+    page_icon=':earth_asia:', # This is an emoji shortcode. Could be a URL too.
 )
 
 # -----------------------------------------------------------------------------
@@ -92,7 +92,7 @@ if not len(countries):
 selected_countries = st.multiselect(
     'Which countries would you like to view?',
     countries,
-    ['DEU', 'FRA', 'GBR', 'BRA', 'MEX', 'JPN'])
+    ['SWE', 'IND', 'QAT'])
 
 ''
 ''
